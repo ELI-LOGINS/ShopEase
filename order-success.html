@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Confirmed - ShopEase</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">ShopEase</a>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="nav-icons">
+          <a href="cart.html" class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count" id="cartCount">0</span>
+          </a>
+          <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="order-success">
+      <div class="container">
+        <div class="success-card">
+          <div class="success-icon">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          
+          <h1>Order Confirmed!</h1>
+          
+          <p>Thank you for your purchase. Your order has been confirmed and will be shipped soon.</p>
+          
+          <div class="order-number">
+            <p>Order Number:</p>
+            <p id="orderNumber">ORDER-000000</p>
+          </div>
+          
+          <p>A confirmation email has been sent to your email address.</p>
+          
+          <div class="success-actions">
+            <a href="index.html" class="btn btn-primary">Return to Home</a>
+            <a href="products.html" class="btn btn-outline">Continue Shopping</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <p>&copy; 2025 ShopEase. All rights reserved.</p>
+        </div>
+        
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/order-success.js"></script>
+</body>
+</html>

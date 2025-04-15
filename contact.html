@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - ShopEase</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <a href="index.html" class="logo">ShopEase</a>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </div>
+        <div class="nav-icons">
+          <a href="cart.html" class="cart-icon">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="cart-count" id="cartCount">0</span>
+          </a>
+          <button class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1>Contact Us</h1>
+      </div>
+    </section>
+    
+    <section class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-form-container">
+            <h2>Send Us a Message</h2>
+            <form id="contactForm" class="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+          
+          <div class="contact-info">
+            <h2>Contact Information</h2>
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="info-content">
+                <h3>Address</h3>
+                <p>123 Tech Street, Silicon Valley<br>CA 94025, USA</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="info-content">
+                <h3>Phone</h3>
+                <p>+1 (555) 123-4567</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="info-content">
+                <h3>Email</h3>
+                <p>support@shopease.com</p>
+              </div>
+            </div>
+            
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="info-content">
+                <h3>Working Hours</h3>
+                <p>Monday - Friday: 9am - 5pm<br>Saturday: 10am - 2pm<br>Sunday: Closed</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="map-section">
+      <div class="container">
+        <h2>Find Us</h2>
+        <div class="map-container">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.6409898345096!2d-122.08344368451362!3d37.42239997982367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbcf487219d05%3A0x31574826067354a5!2sGoogle%20Bldg%2040%2C%20Mountain%20View%2C%20CA%2094043%2C%20USA!5e0!3m2!1sen!2s!4v1649288317922!5m2!1sen!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h3>Shop Categories</h3>
+          <ul>
+            <li><a href="products.html?category=electronics">Electronics</a></li>
+            <li><a href="products.html?category=gaming">Gaming</a></li>
+            <li><a href="products.html?category=smart-home">Smart Home</a></li>
+            <li><a href="products.html">All Products</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Information</h3>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Shipping Information</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Customer Service</h3>
+          <ul>
+            <li><a href="#">My Account</a></li>
+            <li><a href="#">Order History</a></li>
+            <li><a href="#">Returns & Refunds</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="contact.html">Contact Support</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-column">
+          <h3>Stay Connected</h3>
+          <p>Subscribe to our newsletter for the latest updates and offers.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address">
+            <button type="submit">
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2025 ShopEase. All rights reserved. | Designed by <i class="fas fa-heart"></i>  Group Nine</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>  
